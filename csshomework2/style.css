@@ -1,0 +1,76 @@
+/* I removed every padding and margin on page. */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2px;
+}
+img{
+    margin-top: 7px;
+}
+.search{
+    background-color: rgb(238, 238, 238);
+    width: 1134px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1px;
+
+}
+.search-input{
+    width: 278px;
+}
+
+/* SECOND BOX (CONTENT) */
+
+.content{
+    display: flex;
+    flex-direction: row;
+    width: 1134px;
+    justify-content: center;
+    gap: 2px;
+}
+
+/* there was same features on 3 box ^ */
+.special-searches,.help,.subscribe{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding:1px;
+}
+
+.special-searches{
+    width:418px;
+    background-color: #7EE4DA;
+}
+.help{
+    width:249px;
+    font-size: 13px;
+    background-color: #6FCCC2;
+}
+.subscribe{
+    width: 462px;
+    background-color: #62B3AA;
+}
+.subscribe p{
+    font-size: 13px;
+}
+.btn{
+    display: flex;
+    gap: 5px;
+}
+.btn > input{
+    padding: 1px 4px;
+}
+button{
+    width: 80px;
+    padding: 1px;
+}
+a{
+    color: #0000ED;
+}
